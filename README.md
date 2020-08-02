@@ -1,5 +1,7 @@
 # static-site-webpack-template
 
-запустить dev mode -> `npm run dev`
+1. установить зависимости -> `npm i`
 
-собрать для продакшна -> `npm run build`
+2. запустить dev mode -> `npm run dev`
+
+3. собрать для продакшна -> `npm run build`
