@@ -1,0 +1,18 @@
+$container-width: 1100px;
+
+%container {
+    max-width: $container-width;
+    margin: 0 auto;
+}
+
+%no-decoration-link {
+    text-decoration: none;
+}
+
+/* flex-items */
+
+@mixin flex-container($horisontal, $vertical) {
+    display: flex;
+    justify-content: $horisontal;
+    align-items: $vertical;
+}
